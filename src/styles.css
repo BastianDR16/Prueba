@@ -1,0 +1,40 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    
+  flex-direction: row;
+  justify-content: center;
+  }
+  .table-wrapper {
+    width: 100%;
+    margin: 30px auto;
+    background: #fff;
+    padding-left: 20%;
+    padding-right: 20%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  }
+  .button {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 10;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  
+  .row-style {
+    background-color: #D7D3D3;  
+    padding: 15px;
+    border: solid white 5px;
+  }
